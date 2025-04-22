@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3338691932187329821
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1044132899047220264}
+  - component: {fileID: 8612757589047058277}
+  m_Layer: 0
+  m_Name: teleport_100
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1044132899047220264
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3338691932187329821}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8612757589047058277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3338691932187329821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904cc5635f583a741b8cb2735260ec39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimRes:
+    Infos:
+    - AnimName: teleport_100
+      FrameRate: 3
+      Events: []
+      Frames:
+      - res: 4A53C854
+        sprite: {fileID: -730799661810305345, guid: b02bbb561097bc448bcdc5d9a728b91c, type: 3}
+        x: -272
+        y: -557
+      - res: E15FE2EA
+        sprite: {fileID: 6397026320764846153, guid: b02bbb561097bc448bcdc5d9a728b91c, type: 3}
+        x: -249
+        y: -557
+      - res: C96E31B3
+        sprite: {fileID: -3136067145791455158, guid: b02bbb561097bc448bcdc5d9a728b91c, type: 3}
+        x: -228
+        y: -557
+      - res: F7845A0D
+        sprite: {fileID: 3367272841383545871, guid: b02bbb561097bc448bcdc5d9a728b91c, type: 3}
+        x: -209
+        y: -557
+      - res: FA6F006A
+        sprite: {fileID: 6097087629029342684, guid: b02bbb561097bc448bcdc5d9a728b91c, type: 3}
+        x: -228
+        y: -557
+      - res: 2D674862
+        sprite: {fileID: -8739697949912740845, guid: b02bbb561097bc448bcdc5d9a728b91c, type: 3}
+        x: -249
+        y: -557
+      Loop: 1
