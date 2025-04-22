@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1946638351412959831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 594789933084015462}
+  - component: {fileID: 8124306215323313303}
+  m_Layer: 0
+  m_Name: create_1_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &594789933084015462
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946638351412959831}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8124306215323313303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946638351412959831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904cc5635f583a741b8cb2735260ec39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimRes:
+    Infos:
+    - AnimName: create_1_0
+      FrameRate: 6
+      Events: []
+      Frames:
+      - res: 42A527D9
+        sprite: {fileID: -4899224141697886931, guid: d1cf21f4d48bdf449a9a41a0c73b1587, type: 3}
+        x: -47
+        y: -266
+      - res: 6066C311
+        sprite: {fileID: -8952624756395839044, guid: d1cf21f4d48bdf449a9a41a0c73b1587, type: 3}
+        x: -47
+        y: -267
+      - res: CBFB609E
+        sprite: {fileID: -5492071164840438420, guid: d1cf21f4d48bdf449a9a41a0c73b1587, type: 3}
+        x: -47
+        y: -267
+      - res: E1450A33
+        sprite: {fileID: 4506570065134728281, guid: d1cf21f4d48bdf449a9a41a0c73b1587, type: 3}
+        x: -47
+        y: -267
+      - res: B42A1E7E
+        sprite: {fileID: -1812166178336429877, guid: d1cf21f4d48bdf449a9a41a0c73b1587, type: 3}
+        x: -46
+        y: -268
+      - res: F0050175
+        sprite: {fileID: -3470715047703025976, guid: d1cf21f4d48bdf449a9a41a0c73b1587, type: 3}
+        x: -46
+        y: -268
+      - res: 217DD972
+        sprite: {fileID: 8440598228983955473, guid: d1cf21f4d48bdf449a9a41a0c73b1587, type: 3}
+        x: -46
+        y: -268
+      - res: 38C7AD2D
+        sprite: {fileID: 3197253062903572240, guid: d1cf21f4d48bdf449a9a41a0c73b1587, type: 3}
+        x: -46
+        y: -267
+      - res: 6445C746
+        sprite: {fileID: -7252405586006448987, guid: d1cf21f4d48bdf449a9a41a0c73b1587, type: 3}
+        x: -47
+        y: -267
+      Loop: 1

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2451217726312228778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4093673514194345261}
+  - component: {fileID: 3905582275779091832}
+  m_Layer: 0
+  m_Name: xuanzhong
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4093673514194345261
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2451217726312228778}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3905582275779091832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2451217726312228778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904cc5635f583a741b8cb2735260ec39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimRes:
+    Infos:
+    - AnimName: xuanzhong
+      FrameRate: 6
+      Events: []
+      Frames:
+      - res: 258A17DE
+        sprite: {fileID: 7659042123664616487, guid: 0417d0886e76cfe40941e81a294f029f, type: 3}
+        x: -155
+        y: -185
+      - res: 52500AE6
+        sprite: {fileID: 4404161821099445736, guid: 0417d0886e76cfe40941e81a294f029f, type: 3}
+        x: -221
+        y: -348
+      - res: 7A8981DF
+        sprite: {fileID: 85878941190714685, guid: 0417d0886e76cfe40941e81a294f029f, type: 3}
+        x: -334
+        y: -586
+      - res: 9805FFC2
+        sprite: {fileID: 7551880343228268311, guid: 0417d0886e76cfe40941e81a294f029f, type: 3}
+        x: -332
+        y: -635
+      - res: 2218434
+        sprite: {fileID: -8616084972442518660, guid: 0417d0886e76cfe40941e81a294f029f, type: 3}
+        x: -334
+        y: -635
+      - res: 8EA34B97
+        sprite: {fileID: 1014713555120513338, guid: 0417d0886e76cfe40941e81a294f029f, type: 3}
+        x: -320
+        y: -635
+      - res: 8194DF1B
+        sprite: {fileID: 4342301472423650434, guid: 0417d0886e76cfe40941e81a294f029f, type: 3}
+        x: -333
+        y: -635
+      - res: 5A8BEC0D
+        sprite: {fileID: 7474335071066954821, guid: 0417d0886e76cfe40941e81a294f029f, type: 3}
+        x: -315
+        y: -635
+      Loop: 1
