@@ -21,7 +21,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: A3D3851C
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 175
+        width: 59
+        height: 81
+      alignment: 9
+      pivot: {x: 0.4915254, y: 0.2345679}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86c59de557d00343be7a628d0dc08f2
+      internalID: -2662033654204939755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D16282DC
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 95
+        width: 52
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abb65308e3774c49960486aae26f5b4
+      internalID: 7531197117603489040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8C3C2BB0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98
+        width: 66
+        height: 78
+      alignment: 9
+      pivot: {x: 0.42424244, y: 0.24358974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3ae3d2843b0bb4cb7b92806b651826
+      internalID: -4900326250367695736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1B3A04E
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 67
+        height: 80
+      alignment: 9
+      pivot: {x: 0.46268657, y: 0.2375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0fa4a653360654f98cb2c5605a8e9e
+      internalID: 4880363355238699330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +203,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      8C3C2BB0: -4900326250367695736
+      A3D3851C: -2662033654204939755
+      D16282DC: 7531197117603489040
+      E1B3A04E: 4880363355238699330
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

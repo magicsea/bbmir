@@ -21,7 +21,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 8948A9A0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 102
+        width: 56
+        height: 77
+      alignment: 9
+      pivot: {x: 0.53571427, y: 0.20779221}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ba9121b22461d47b355a710e89c4c1
+      internalID: 167337931755045782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EE0855BD
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 178
+        width: 62
+        height: 78
+      alignment: 9
+      pivot: {x: 0.5, y: 0.20512821}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13738a451f8a7674384da9e65f663171
+      internalID: -1578674128533602032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7A559348
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 179
+        width: 58
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.20779221}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df348a1a6a89e6046b2e3ab44738a620
+      internalID: 1195011020636943584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D36406FB
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 55
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5272727, y: 0.21052632}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9bb102809c97c49ae2287d5af5d477
+      internalID: 4167065869488197316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +203,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      7A559348: 1195011020636943584
+      8948A9A0: 167337931755045782
+      D36406FB: 4167065869488197316
+      EE0855BD: -1578674128533602032
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4428430359022446333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6187660460040641047}
+  - component: {fileID: 365446236353346683}
+  m_Layer: 0
+  m_Name: monster30010_2s
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6187660460040641047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4428430359022446333}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &365446236353346683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4428430359022446333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904cc5635f583a741b8cb2735260ec39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimRes:
+    Infos:
+    - AnimName: monster30010_2s
+      FrameRate: 6
+      Events: []
+      Frames:
+      - res: 5F21798E
+        sprite: {fileID: -7762427294022917867, guid: 88b7bfe15a6ff7f478c332b21b6905f5, type: 3}
+        x: -29
+        y: -60
+      - res: C56C7C2
+        sprite: {fileID: 7437966969329572251, guid: 88b7bfe15a6ff7f478c332b21b6905f5, type: 3}
+        x: -29
+        y: -58
+      - res: C48CC8B9
+        sprite: {fileID: -8431800351495778461, guid: 88b7bfe15a6ff7f478c332b21b6905f5, type: 3}
+        x: -29
+        y: -57
+      - res: B17322F5
+        sprite: {fileID: -5588421624085334757, guid: 88b7bfe15a6ff7f478c332b21b6905f5, type: 3}
+        x: -28
+        y: -59
+      Loop: 1

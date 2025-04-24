@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7490070711821689125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6649853434946895443}
+  - component: {fileID: 140680510682770559}
+  m_Layer: 0
+  m_Name: monster30010_2d
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6649853434946895443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7490070711821689125}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &140680510682770559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7490070711821689125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904cc5635f583a741b8cb2735260ec39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimRes:
+    Infos:
+    - AnimName: monster30010_2d
+      FrameRate: 10
+      Events: []
+      Frames:
+      - res: CAEAA2C4
+        sprite: {fileID: -7875787743730491340, guid: f9ec6d3500e75f44083191143c13c3fb, type: 3}
+        x: -26
+        y: -57
+      - res: 382F4137
+        sprite: {fileID: 5764402388391501355, guid: f9ec6d3500e75f44083191143c13c3fb, type: 3}
+        x: -32
+        y: -61
+      - res: 12C49BC0
+        sprite: {fileID: 1276325059461997238, guid: f9ec6d3500e75f44083191143c13c3fb, type: 3}
+        x: -28
+        y: -60
+      - res: 7D329D1C
+        sprite: {fileID: 7085389737607382306, guid: f9ec6d3500e75f44083191143c13c3fb, type: 3}
+        x: -22
+        y: -60
+      - res: 3DC3C7A5
+        sprite: {fileID: 4131790993613013692, guid: f9ec6d3500e75f44083191143c13c3fb, type: 3}
+        x: -27
+        y: -64
+      - res: C9EF6453
+        sprite: {fileID: -3307868681971700423, guid: f9ec6d3500e75f44083191143c13c3fb, type: 3}
+        x: -29
+        y: -47
+      - res: C5670004
+        sprite: {fileID: 4358601001131899622, guid: f9ec6d3500e75f44083191143c13c3fb, type: 3}
+        x: -39
+        y: -36
+      - res: 2BF43369
+        sprite: {fileID: 6230571860393654321, guid: f9ec6d3500e75f44083191143c13c3fb, type: 3}
+        x: -44
+        y: -28
+      - res: BD385A24
+        sprite: {fileID: -2657527139729219708, guid: f9ec6d3500e75f44083191143c13c3fb, type: 3}
+        x: -47
+        y: -28
+      - res: E33DD8E5
+        sprite: {fileID: -7574952897727083938, guid: f9ec6d3500e75f44083191143c13c3fb, type: 3}
+        x: -52
+        y: -23
+      Loop: 1

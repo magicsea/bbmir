@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5165143473789915123
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2092086298749446554}
+  - component: {fileID: 3549713052400558010}
+  m_Layer: 0
+  m_Name: npc1000
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2092086298749446554
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5165143473789915123}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3549713052400558010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5165143473789915123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904cc5635f583a741b8cb2735260ec39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimRes:
+    Infos:
+    - AnimName: npc1000
+      FrameRate: 3
+      Events: []
+      Frames:
+      - res: 2FC7DE8E
+        sprite: {fileID: -4113534894256866611, guid: 40f36f3732eda884b8d4a7435400164c, type: 3}
+        x: -16
+        y: -67
+      - res: B875DFFC
+        sprite: {fileID: 4982165947329804520, guid: 40f36f3732eda884b8d4a7435400164c, type: 3}
+        x: -16
+        y: -65
+      - res: 6C227CA2
+        sprite: {fileID: -3093168719777052008, guid: 40f36f3732eda884b8d4a7435400164c, type: 3}
+        x: -16
+        y: -65
+      - res: EC6FCC31
+        sprite: {fileID: -633940116466829949, guid: 40f36f3732eda884b8d4a7435400164c, type: 3}
+        x: -16
+        y: -66
+      Loop: 1

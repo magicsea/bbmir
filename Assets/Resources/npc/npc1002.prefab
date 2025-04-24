@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7740669986395485132
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2405502884583395057}
+  - component: {fileID: 7292444644174583741}
+  m_Layer: 0
+  m_Name: npc1002
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2405502884583395057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7740669986395485132}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7292444644174583741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7740669986395485132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904cc5635f583a741b8cb2735260ec39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimRes:
+    Infos:
+    - AnimName: npc1002
+      FrameRate: 3
+      Events: []
+      Frames:
+      - res: 8EE97EF1
+        sprite: {fileID: -2036857415998560818, guid: 0f0e9bcb5fa2f8842bbafa9d29acb20e, type: 3}
+        x: -29
+        y: -65
+      - res: 72D2546A
+        sprite: {fileID: -271219185629297124, guid: 0f0e9bcb5fa2f8842bbafa9d29acb20e, type: 3}
+        x: -30
+        y: -65
+      - res: 6AC2F725
+        sprite: {fileID: -8895366762731903918, guid: 0f0e9bcb5fa2f8842bbafa9d29acb20e, type: 3}
+        x: -29
+        y: -65
+      - res: 354DBD92
+        sprite: {fileID: -5412001117381315378, guid: 0f0e9bcb5fa2f8842bbafa9d29acb20e, type: 3}
+        x: -30
+        y: -66
+      Loop: 1

@@ -21,7 +21,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: C48CC8B9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 177
+        width: 64
+        height: 79
+      alignment: 9
+      pivot: {x: 0.453125, y: 0.278481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cb072d9b0f28948a45277fcc490446
+      internalID: -8431800351495778461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: C56C7C2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 63
+        height: 80
+      alignment: 9
+      pivot: {x: 0.46031746, y: 0.275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09f27588f7637443b37617b800db47e
+      internalID: 7437966969329572251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5F21798E
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 61
+        height: 82
+      alignment: 9
+      pivot: {x: 0.47540984, y: 0.2682927}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584e8bc059521ab45b76d6f8232b1966
+      internalID: -7762427294022917867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B17322F5
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 95
+        width: 59
+        height: 81
+      alignment: 9
+      pivot: {x: 0.47457626, y: 0.27160493}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb0667580e3ebb449a0184c59ad5e5b
+      internalID: -5588421624085334757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +203,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      5F21798E: -7762427294022917867
+      B17322F5: -5588421624085334757
+      C48CC8B9: -8431800351495778461
+      C56C7C2: 7437966969329572251
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

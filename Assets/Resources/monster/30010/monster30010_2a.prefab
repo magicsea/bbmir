@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8321318377310321847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1816788759932509086}
+  - component: {fileID: 8284079713183390518}
+  m_Layer: 0
+  m_Name: monster30010_2a
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1816788759932509086
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8321318377310321847}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8284079713183390518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8321318377310321847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904cc5635f583a741b8cb2735260ec39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimRes:
+    Infos:
+    - AnimName: monster30010_2a
+      FrameRate: 10
+      Events: []
+      Frames:
+      - res: D954F02E
+        sprite: {fileID: 5576788711275327822, guid: f0e60f007456614408a9b8795b7c22e0, type: 3}
+        x: -26
+        y: -60
+      - res: CEDCD150
+        sprite: {fileID: -558737760774821804, guid: f0e60f007456614408a9b8795b7c22e0, type: 3}
+        x: -33
+        y: -70
+      - res: 4DF5E208
+        sprite: {fileID: 8355251639882420802, guid: f0e60f007456614408a9b8795b7c22e0, type: 3}
+        x: -47
+        y: -67
+      - res: B1F36953
+        sprite: {fileID: -2146903699860331492, guid: f0e60f007456614408a9b8795b7c22e0, type: 3}
+        x: -29
+        y: -60
+      - res: 7A16F4A2
+        sprite: {fileID: 543573722529623766, guid: f0e60f007456614408a9b8795b7c22e0, type: 3}
+        x: -33
+        y: -56
+      - res: 599ED519
+        sprite: {fileID: -7569278422912651568, guid: f0e60f007456614408a9b8795b7c22e0, type: 3}
+        x: -28
+        y: -60
+      Loop: 1

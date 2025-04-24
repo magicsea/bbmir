@@ -21,7 +21,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 72D2546A
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 179
+        width: 74
+        height: 76
+      alignment: 9
+      pivot: {x: 0.4054054, y: 0.14473684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4595159685b048f4f862a56634a9e719
+      internalID: -271219185629297124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8EE97EF1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 179
+        width: 78
+        height: 76
+      alignment: 9
+      pivot: {x: 0.37179488, y: 0.14473684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ff70a09105a05459420409142bd28c
+      internalID: -2036857415998560818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 354DBD92
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 178
+        width: 75
+        height: 77
+      alignment: 9
+      pivot: {x: 0.4, y: 0.14285715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5312446258247ac4ebf5ef0c855c4f37
+      internalID: -5412001117381315378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6AC2F725
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 101
+        width: 74
+        height: 76
+      alignment: 9
+      pivot: {x: 0.3918919, y: 0.14473684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0825bae686b97864598b0f249cb98c7a
+      internalID: -8895366762731903918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +203,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      354DBD92: -5412001117381315378
+      6AC2F725: -8895366762731903918
+      72D2546A: -271219185629297124
+      8EE97EF1: -2036857415998560818
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

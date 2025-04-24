@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2277987625058489148
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6042647540279477474}
+  - component: {fileID: 6492141726623683020}
+  m_Layer: 0
+  m_Name: npc1001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6042647540279477474
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2277987625058489148}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6492141726623683020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2277987625058489148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904cc5635f583a741b8cb2735260ec39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimRes:
+    Infos:
+    - AnimName: npc1001
+      FrameRate: 3
+      Events: []
+      Frames:
+      - res: 484B7240
+        sprite: {fileID: 5742730713435367007, guid: 93d2d2c0a7fe70247b6e547946d6f57e, type: 3}
+        x: -24
+        y: -67
+      - res: 8C07A0D
+        sprite: {fileID: -7319682356834982811, guid: 93d2d2c0a7fe70247b6e547946d6f57e, type: 3}
+        x: -22
+        y: -66
+      - res: FA92F10B
+        sprite: {fileID: -827367827869659150, guid: 93d2d2c0a7fe70247b6e547946d6f57e, type: 3}
+        x: -21
+        y: -66
+      - res: 49EE18A4
+        sprite: {fileID: -8960638734814497648, guid: 93d2d2c0a7fe70247b6e547946d6f57e, type: 3}
+        x: -22
+        y: -67
+      Loop: 1

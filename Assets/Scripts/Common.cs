@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public static class Common
 {
+
      const float PixcelSize = 0.01f;
      public static Vector3 GamePosToWorldPos(float x, float y) 
      {

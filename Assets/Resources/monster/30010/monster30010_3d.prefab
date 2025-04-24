@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &681280109203459220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4649559611010856926}
+  - component: {fileID: 6536178975582778315}
+  m_Layer: 0
+  m_Name: monster30010_3d
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4649559611010856926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681280109203459220}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6536178975582778315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681280109203459220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904cc5635f583a741b8cb2735260ec39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimRes:
+    Infos:
+    - AnimName: monster30010_3d
+      FrameRate: 10
+      Events: []
+      Frames:
+      - res: 7214687D
+        sprite: {fileID: 3742175197842155659, guid: a1de0365c08384946b087549a1d8a2e8, type: 3}
+        x: -25
+        y: -56
+      - res: FCC12618
+        sprite: {fileID: 3869687652833196105, guid: a1de0365c08384946b087549a1d8a2e8, type: 3}
+        x: -35
+        y: -65
+      - res: 58F98BB7
+        sprite: {fileID: -2346128119469075286, guid: a1de0365c08384946b087549a1d8a2e8, type: 3}
+        x: -26
+        y: -67
+      - res: DED05E5F
+        sprite: {fileID: 434436411883748287, guid: a1de0365c08384946b087549a1d8a2e8, type: 3}
+        x: -39
+        y: -60
+      - res: 2A248A4F
+        sprite: {fileID: 2420960940482784892, guid: a1de0365c08384946b087549a1d8a2e8, type: 3}
+        x: -48
+        y: -48
+      - res: A971B37F
+        sprite: {fileID: -6748134856295704131, guid: a1de0365c08384946b087549a1d8a2e8, type: 3}
+        x: -59
+        y: -44
+      - res: DAFEA5F
+        sprite: {fileID: -685219019085386761, guid: a1de0365c08384946b087549a1d8a2e8, type: 3}
+        x: -71
+        y: -30
+      - res: 16C471C7
+        sprite: {fileID: -5346522416109216575, guid: a1de0365c08384946b087549a1d8a2e8, type: 3}
+        x: -72
+        y: -38
+      - res: A2CDC36
+        sprite: {fileID: 8706517084104542751, guid: a1de0365c08384946b087549a1d8a2e8, type: 3}
+        x: -77
+        y: -33
+      - res: AE81CEF9
+        sprite: {fileID: -1958266074464173154, guid: a1de0365c08384946b087549a1d8a2e8, type: 3}
+        x: -84
+        y: -29
+      Loop: 1

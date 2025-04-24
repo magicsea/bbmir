@@ -21,7 +21,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 2FC7DE8E
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 11
+        width: 60
+        height: 81
+      alignment: 9
+      pivot: {x: 0.26666668, y: 0.17283951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9595a349049a841873537ff7987dd7
+      internalID: -4113534894256866611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B875DFFC
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 13
+        width: 61
+        height: 79
+      alignment: 9
+      pivot: {x: 0.26229507, y: 0.17721519}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b717adf109bbf47a650fed4b6c0c91
+      internalID: 4982165947329804520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EC6FCC31
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 94
+        width: 66
+        height: 80
+      alignment: 9
+      pivot: {x: 0.24242425, y: 0.175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892880009ea6f2047b1193a51bcbd4e3
+      internalID: -633940116466829949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6C227CA2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 176
+        width: 70
+        height: 79
+      alignment: 9
+      pivot: {x: 0.22857143, y: 0.17721519}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8414266df1879f9468d27d9488bc1696
+      internalID: -3093168719777052008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +203,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      2FC7DE8E: -4113534894256866611
+      6C227CA2: -3093168719777052008
+      B875DFFC: 4982165947329804520
+      EC6FCC31: -633940116466829949
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
